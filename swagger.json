@@ -95,6 +95,22 @@
             "description" : "an existing item already exists"
           }
         }
+      },
+      "delete" : {
+        "tags" : [ "testii" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "jee",
+          "description" : "hahaa"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          },
+          "401" : {
+            "description" : "Not Found"
+          }
+        }
       }
     }
   },
