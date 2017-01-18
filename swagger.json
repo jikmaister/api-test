@@ -101,7 +101,7 @@
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "in" : "query",
-          "name" : "jee",
+          "name" : "id",
           "required" : true,
           "type" : "string"
         } ],
