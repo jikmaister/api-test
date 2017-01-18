@@ -40,7 +40,8 @@
           "description" : "number of records to skip for pagination",
           "type" : "integer",
           "format" : "int32",
-          "minimum" : 0
+          "minimum" : 0,
+          "maximum" : 49
         }, {
           "in" : "query",
           "name" : "limit",
