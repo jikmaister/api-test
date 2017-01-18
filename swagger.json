@@ -98,10 +98,12 @@
       },
       "delete" : {
         "tags" : [ "testii" ],
+        "produces" : [ "application/json" ],
         "parameters" : [ {
-          "in" : "body",
+          "in" : "query",
           "name" : "jee",
-          "description" : "hahaa"
+          "required" : false,
+          "type" : "string"
         } ],
         "responses" : {
           "200" : {
