@@ -102,7 +102,7 @@
         "parameters" : [ {
           "in" : "query",
           "name" : "jee",
-          "required" : false,
+          "required" : true,
           "type" : "string"
         } ],
         "responses" : {
