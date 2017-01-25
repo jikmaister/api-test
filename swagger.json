@@ -100,10 +100,11 @@
         "tags" : [ "testii" ],
         "produces" : [ "application/json" ],
         "parameters" : [ {
-          "in" : "query",
           "name" : "id",
+          "in" : "query",
           "required" : true,
-          "type" : "string"
+          "type" : "string",
+          "description" : "Delete by id"
         } ],
         "responses" : {
           "200" : {
