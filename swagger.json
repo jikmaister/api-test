@@ -167,7 +167,8 @@
       "required" : [ "code", "message" ],
       "properties" : {
         "code" : {
-          "type" : "int32"
+          "type" : "string",
+          "format" : "int32"
         },
         "message" : {
           "type" : "string"
