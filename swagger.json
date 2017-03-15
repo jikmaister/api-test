@@ -66,6 +66,12 @@
           },
           "500" : {
             "description" : "asojdsodijfoidsj"
+          },
+          "default" : {
+            "description" : "Oletusvirhe",
+            "schema" : {
+              "$ref" : "#/definitions/errorModel"
+            }
           }
         }
       },
